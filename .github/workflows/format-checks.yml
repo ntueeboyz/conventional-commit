@@ -1,0 +1,15 @@
+name: Format checks
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  commit-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: wagoid/commitlint-github-action@v2

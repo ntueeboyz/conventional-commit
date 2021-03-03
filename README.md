@@ -18,15 +18,15 @@
 8. `ci`: Changes to our CI configuration files and scripts
 9. `test`: Adding missing tests or correcting existing tests
 10. `style`: Changes that do not affect the meaning of the code
-### BREAKING CHANGE
+#### BREAKING CHANGE
 ```
 feat: allow provided config object to extend other configs
 
 BREAKING CHANGE: `extends` key in config file is now used for extending other config files
 ```
-### Commit message without body
+#### Commit message without body
 `feat(lang): add polish language`
-### Commit message with multi-paragraph body and multiple footers
+#### Commit message with multi-paragraph body and multiple footers
 ```
 fix: correct minor typos in code
 

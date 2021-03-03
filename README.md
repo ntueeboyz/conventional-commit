@@ -11,7 +11,7 @@
 ```
 1. `fix`: A bug fix -> `PATCH`
 2. `feat`: A new feature -> `MINOR`
-3. `BREAKING CHANGE`: a breaking API change -> `MAJOR` ()
+3. `BREAKING CHANGE`: a breaking API change -> `MAJOR`
 4. `build`: Changes that affect the build system or external dependencies
 5. `docs`: Documentation only changes
 6. `perf`: A code change that improves performance
